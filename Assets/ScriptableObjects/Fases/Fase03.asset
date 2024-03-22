@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da56335480b34b19ab6bd11e17631bc, type: 3}
+  m_Name: Fase03
+  m_EditorClassIdentifier: 
+  nome: Fase 3
+  controladorInimigo:
+    ondasInimigo:
+    - descricaoOndaInimigo: 01 - Onda Sequencial com 1 grupo(s)
+      tipoExecucaoGrupoInimigo: 1
+      gruposInimigo:
+      - descricaoGrupoInimigo: "01 - 3 inimigos - conclu\xEDdo quando CriacaoInimigosConcluida"
+        fabricaInimigo: {fileID: 11400000, guid: 98b9db11ffcdb43139b679592d563ceb, type: 2}
+        modoConclusao: 0
+        quantidadeTotalInimigos: 3
+        tempoEsperaAntesCriarInimigos: 0
+        intervaloEntreCriacaoInimigos: 2
+        conectorSpawnPoint: {fileID: 11400000, guid: 067b99ddd00514ee0b06b4b25834097a, type: 2}
+    - descricaoOndaInimigo: 02 - Onda Paralela com 5 grupo(s)
+      tipoExecucaoGrupoInimigo: 0
+      gruposInimigo:
+      - descricaoGrupoInimigo: "01 - 10 inimigos - conclu\xEDdo quando TodosInimigosDerrotados"
+        fabricaInimigo: {fileID: 11400000, guid: 98b9db11ffcdb43139b679592d563ceb, type: 2}
+        modoConclusao: 1
+        quantidadeTotalInimigos: 10
+        tempoEsperaAntesCriarInimigos: 0.5
+        intervaloEntreCriacaoInimigos: 4
+        conectorSpawnPoint: {fileID: 11400000, guid: 9ade11ad30b974bdb9882ba87203f1f3, type: 2}
+      - descricaoGrupoInimigo: "02 - 10 inimigos - conclu\xEDdo quando TodosInimigosDerrotados"
+        fabricaInimigo: {fileID: 11400000, guid: 98b9db11ffcdb43139b679592d563ceb, type: 2}
+        modoConclusao: 1
+        quantidadeTotalInimigos: 10
+        tempoEsperaAntesCriarInimigos: 0.5
+        intervaloEntreCriacaoInimigos: 4
+        conectorSpawnPoint: {fileID: 11400000, guid: 0513fe89dc4de40efa16a947a1bf31eb, type: 2}
+      - descricaoGrupoInimigo: "03 - 10 inimigos - conclu\xEDdo quando TodosInimigosDerrotados"
+        fabricaInimigo: {fileID: 11400000, guid: 98b9db11ffcdb43139b679592d563ceb, type: 2}
+        modoConclusao: 1
+        quantidadeTotalInimigos: 10
+        tempoEsperaAntesCriarInimigos: 6
+        intervaloEntreCriacaoInimigos: 4
+        conectorSpawnPoint: {fileID: 11400000, guid: c55834cec3a1a41e781f2173628e8b6f, type: 2}
+      - descricaoGrupoInimigo: "04 - 10 inimigos - conclu\xEDdo quando TodosInimigosDerrotados"
+        fabricaInimigo: {fileID: 11400000, guid: 98b9db11ffcdb43139b679592d563ceb, type: 2}
+        modoConclusao: 1
+        quantidadeTotalInimigos: 10
+        tempoEsperaAntesCriarInimigos: 6
+        intervaloEntreCriacaoInimigos: 4
+        conectorSpawnPoint: {fileID: 11400000, guid: 489dfa53d32014c0d88b6cd536d0571e, type: 2}
+      - descricaoGrupoInimigo: "05 - 10 inimigos - conclu\xEDdo quando TodosInimigosDerrotados"
+        fabricaInimigo: {fileID: 11400000, guid: 98b9db11ffcdb43139b679592d563ceb, type: 2}
+        modoConclusao: 1
+        quantidadeTotalInimigos: 10
+        tempoEsperaAntesCriarInimigos: 10
+        intervaloEntreCriacaoInimigos: 4.5
+        conectorSpawnPoint: {fileID: 11400000, guid: 067b99ddd00514ee0b06b4b25834097a, type: 2}

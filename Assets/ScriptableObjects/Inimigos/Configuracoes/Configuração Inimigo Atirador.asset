@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e85ae6be2ba41d0bf7ed2895ed8ba0, type: 3}
+  m_Name: "Configura\xE7\xE3o Inimigo Atirador"
+  m_EditorClassIdentifier: 
+  inimigoPrefab: {fileID: 2815392447760880354, guid: 273accebf963d904c9596cf68ca81eba, type: 3}
+  propriedadesInimigo: {fileID: 11400000, guid: 85f230c2afa394fc2a88d07bd67006a8, type: 2}
